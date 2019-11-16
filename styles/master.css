@@ -1,6 +1,9 @@
 @import "reset.css";
 @import "fonts.css";
 
+:root{
+  --gray: #949494;
+}
 body {
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
@@ -106,14 +109,83 @@ header{
 }
 
 @media (min-width:768px){
-  .perks ul{
-    padding: 0 24px 128px 24px;
-    font-size: 36px;
-    line-height: 48px;
-  }
-  .perks li{
-    padding: 32px 0 88px;
-  }
+.perks ul{
+padding: 0 24px 128px 24px;
+font-size: 36px;
+line-height: 48px;
+}
+.perks li{
+padding: 32px 0 88px;
+}
+}
 
-
+/* секция about */
+.about{
+font-weight: 800;
+}
+.about h2{
+color: #000;
+font-size: 40px;
+line-height: 44px;
+padding: 0 16px;
+margin-bottom: 40px;
+}
+.about h2 em{
+color: var(--gray);
+display: block;
+}
+.about img{
+  min-width: 100%;
+}
+.about p{
+font-size: 20px;
+line-height: 28px;
+color: var(--gray);
+padding: 24px 16px 80px 16px;
+}
+.about p em{
+font-size: 20px;
+line-height: 28px;
+color: #000;
+}
+@media (min-width:768px){
+.about h2{
+font-size: 80px;
+line-height: 96px;
+padding: 0 24px;
+margin-bottom: 80px;
+}
+.about p{
+font-size: 32px;
+line-height: 24px;
+color: var(--gray);
+padding: 32px 24px 128px 24px;
+}
+}
+/* секция shop */
+.shop{
+font-weight: 800;
+}
+.shop h2{
+color: #000;
+font-size: 40px;
+line-height: 44px;
+padding: 0 16px;
+margin-bottom: 40px;
+}
+.shop h2 em{
+color: var(--gray);
+display: block;
+}
+.shop h3{
+font-size: 20px;
+line-height: 28px;
+color: #000;
+margin-padding: 24px 16px 80px 16px;
+}
+.shop p{
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--gray);
+  padding: 24px 16px 80px 16px;
 }
